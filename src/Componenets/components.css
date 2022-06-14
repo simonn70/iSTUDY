@@ -1,0 +1,243 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Tai+Heritage+Pro&display=swap');
+*,::before,::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+  
+position: absolute;
+width: 900px;
+height: 270px;
+left: 200px;
+top: 60px;
+
+background: #6f77cf;
+border-radius: 15px;
+box-shadow: rgb(rgb(197, 167, 167), rgb(120, 128, 120), rgb(184, 184, 218));
+
+}
+h3{
+    position: absolute;
+width: 575px;
+height: 62px;
+left: 350px;
+top: 50px;
+
+font-family: 'Irish Grover';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+
+color: #FFFFFF;
+
+}
+p{
+    position: absolute;
+width: 402px;
+height: 50px;
+left: 350px;
+top: 120px;
+font-family: 'Irish Grover', cursive;
+font-family: 'Tai Heritage Pro', serif;
+
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+
+color: #FFFFFF;
+
+}
+img{
+    position: relative;
+    width: 50px;
+    height: 304px;
+    left: 50px;
+    top: -120px;
+    color: #6f77cf;
+}
+
+
+
+
+
+.sidebar{
+    position: absolute;
+width: 170px;
+height: 100%;
+left: 0px;
+top: 0px;
+box-shadow: rgb(rgb(197, 167, 167), rgb(120, 128, 120), rgb(184, 184, 218));
+
+background: #b0adc0;
+border-radius: 0px;
+
+}
+h6{
+    position: relative;
+    bottom: 250px;
+    left: 50px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: 30px;
+    position: relative;
+    bottom: 170px;
+}
+
+h5{
+    position: relative;
+    bottom: 45px;
+    left: 25px;
+    list-style: none;
+    text-decoration: none;
+}
+h4{
+    position: absolute;
+width: 351px;
+height: 83px;
+left: 200px;
+top: 4px;
+
+font-family: 'Irish Grover';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 39px;
+
+color: #000000;
+
+}
+#para{
+    position: absolute;
+width: 300px;
+height: 83px;
+left: 200px;
+top: 25px;
+
+font-family: 'Tai Heritage Pro', serif;
+font-style: normal;
+font-weight: 50;
+font-size: 14px;
+line-height: 39px;
+
+color: #000000;
+
+}
+.lists{
+    display: flex;
+    position: relative;
+    top: 280px;
+    left: 50px;
+    gap: 50px;
+}
+.lists li{
+    list-style: none;
+    border: solid 2px rgb(198, 116, 214);
+    padding: 5px;
+    display: inline-block;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+li:hover{
+    
+    color: #b37cc9;
+    border: 0;
+    border-bottom: solid 2px rgb(136, 89, 189);
+}
+a{
+    text-decoration: #b0adc0;
+    
+}
+input{
+    
+position: absolute;
+width: 343px;
+height: 40px;
+padding: 10px;
+left: 700px;
+top: 5px;
+border-radius: 3px;
+border: solid 1px rgb(158, 116, 175);
+background: #FFFFFF;
+}
+span{
+    margin: 10px;
+}
+#profile{
+    position: relative;
+    width: 122px;
+    height: 105px;
+    left: 1160px;
+    top: 60px;
+    border-radius: 50%;
+    border: solid 2px black;
+    
+}
+#name{
+    position: absolute;
+width: 138px;
+height: 26px;
+left: 1160px;
+top: 180px;
+font-size: 18px;
+}
+.contentbox{
+    border: solid 1px black;
+   
+    position: absolute;
+width: 201px;
+height: 55%;
+left: 1105px;
+top: 260px;
+padding: 10px;
+margin: 10px;
+}
+.item{
+    width: 170px;
+    height: 50px;
+    border: solid 1px black;
+    margin-bottom: 10px;
+
+}
+.container{
+    display: flex;
+    position: relative;
+    
+    
+position: absolute;
+gap: 30px;
+left: 205px;
+top: 405px;
+
+
+}
+.items{
+    border: solid 0px black;
+    width: 200px;
+height: 200px;
+position: relative;
+
+
+
+
+background: #D9D9D9;
+border-radius: 10px;
+}
+span{
+    font-family: 'Irish Grover';
+font-style: normal;
+font-weight: 100;
+font-size: 16px;
+line-height: 29px;
+margin-bottom: 10px;
+}
